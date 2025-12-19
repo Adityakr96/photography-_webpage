@@ -13,6 +13,58 @@
     font-family: Arial, sans-serif;
 }
 
+nav a:hover {
+    color: #afaba7;
+    border-bottom: 2px solid #afaba7;
+    padding-bottom: 3px;
+    transition: 0.3s;
+}
+
+
+.btn:hover {
+    background: #2e2d2c;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+
+.hero-btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+.card {
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    transition: 0.4s ease;
+}
+
+
+.card img {
+    transition: transform 0.4s ease;
+    border-radius: 8px;
+}
+
+.card:hover img {
+    transform: scale(1.08);
+}
+
+/* Card title hover */
+.card h3 {
+    margin-top: 10px;
+    transition: color 0.3s;
+}
+
+.card:hover h3 {
+    color: #afaba7;
+}
+
+
 
 header {
     display: flex;
